@@ -57,9 +57,11 @@ jobs:
         with:
           ssh-key: ${{ secrets.CHROOT_SSH_KEY }}
 
+      # cdn.openbsd.org served a stale snapshot listing to the VMs on
+      # 2026-10-14 (go-1.27.1, gone from the mirror)
       - name: pkg_add go
         shell: chroot {0}
-        run: doas pkg_add -I go
+        run: doas env PKG_PATH=https://ftp.openbsd.org/pub/OpenBSD/snapshots/packages/amd64/ pkg_add -I go
 
       - name: go test
         shell: chroot {0}
