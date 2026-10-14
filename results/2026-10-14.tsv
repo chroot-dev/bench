@@ -1,0 +1,949 @@
+run	job	conclusion	step	seconds
+38598033327	qemu	success	queue	2
+38598033327	qemu	success	job	78
+38598033327	qemu	success	Set up job	1
+38598033327	qemu	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38598033327	qemu	success	Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	29
+38598033327	qemu	success	pkg_add go	27
+38598033327	qemu	success	go test	16
+38598033327	qemu	success	Post Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	1
+38598033327	qemu	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38598033327	qemu	success	Complete job	0
+38598033327	native (ubuntu-24.04)	success	queue	2
+38598033327	native (ubuntu-24.04)	success	job	18
+38598033327	native (ubuntu-24.04)	success	Set up job	1
+38598033327	native (ubuntu-24.04)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38598033327	native (ubuntu-24.04)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	7
+38598033327	native (ubuntu-24.04)	success	go test	5
+38598033327	native (ubuntu-24.04)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	2
+38598033327	native (ubuntu-24.04)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38598033327	native (ubuntu-24.04)	success	Complete job	0
+38598033327	chroot	success	queue	2
+38598033327	chroot	success	job	10
+38598033327	chroot	success	Set up job	1
+38598033327	chroot	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38598033327	chroot	success	Run chroot-dev/chroot-action@v1	1
+38598033327	chroot	success	go test	4
+38598033327	chroot	success	Post Run chroot-dev/chroot-action@v1	1
+38598033327	chroot	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38598033327	chroot	success	Complete job	0
+38598033327	native (windows-2025)	success	queue	2
+38598033327	native (windows-2025)	success	job	44
+38598033327	native (windows-2025)	success	Set up job	2
+38598033327	native (windows-2025)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	7
+38598033327	native (windows-2025)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	19
+38598033327	native (windows-2025)	success	go test	9
+38598033327	native (windows-2025)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	2
+38598033327	native (windows-2025)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38598033327	native (windows-2025)	success	Complete job	0
+38598033327	native (macos-15)	success	queue	7
+38598033327	native (macos-15)	success	job	34
+38598033327	native (macos-15)	success	Set up job	4
+38598033327	native (macos-15)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38598033327	native (macos-15)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	18
+38598033327	native (macos-15)	success	go test	6
+38598033327	native (macos-15)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	1
+38598033327	native (macos-15)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38598033327	native (macos-15)	success	Complete job	0
+38598285980	chroot	success	queue	2
+38598285980	chroot	success	job	10
+38598285980	chroot	success	Set up job	1
+38598285980	chroot	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38598285980	chroot	success	Run chroot-dev/chroot-action@v1	2
+38598285980	chroot	success	go test	4
+38598285980	chroot	success	Post Run chroot-dev/chroot-action@v1	1
+38598285980	chroot	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38598285980	chroot	success	Complete job	0
+38598285980	native (macos-15)	success	queue	8
+38598285980	native (macos-15)	success	job	25
+38598285980	native (macos-15)	success	Set up job	1
+38598285980	native (macos-15)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38598285980	native (macos-15)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	17
+38598285980	native (macos-15)	success	go test	1
+38598285980	native (macos-15)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38598285980	native (macos-15)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38598285980	native (macos-15)	success	Complete job	0
+38598285980	native (windows-2025)	success	queue	2
+38598285980	native (windows-2025)	success	job	35
+38598285980	native (windows-2025)	success	Set up job	1
+38598285980	native (windows-2025)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	7
+38598285980	native (windows-2025)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	20
+38598285980	native (windows-2025)	success	go test	2
+38598285980	native (windows-2025)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38598285980	native (windows-2025)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38598285980	native (windows-2025)	success	Complete job	0
+38598285980	qemu	success	queue	3
+38598285980	qemu	success	job	76
+38598285980	qemu	success	Set up job	1
+38598285980	qemu	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38598285980	qemu	success	Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	30
+38598285980	qemu	success	pkg_add go	26
+38598285980	qemu	success	go test	16
+38598285980	qemu	success	Post Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	0
+38598285980	qemu	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38598285980	qemu	success	Complete job	0
+38598285980	native (ubuntu-24.04)	success	queue	2
+38598285980	native (ubuntu-24.04)	success	job	18
+38598285980	native (ubuntu-24.04)	success	Set up job	1
+38598285980	native (ubuntu-24.04)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38598285980	native (ubuntu-24.04)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	12
+38598285980	native (ubuntu-24.04)	success	go test	0
+38598285980	native (ubuntu-24.04)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38598285980	native (ubuntu-24.04)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38598285980	native (ubuntu-24.04)	success	Complete job	0
+38598496810	native (windows-2025)	success	queue	3
+38598496810	native (windows-2025)	success	job	39
+38598496810	native (windows-2025)	success	Set up job	1
+38598496810	native (windows-2025)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	8
+38598496810	native (windows-2025)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	22
+38598496810	native (windows-2025)	success	go test	1
+38598496810	native (windows-2025)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	1
+38598496810	native (windows-2025)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38598496810	native (windows-2025)	success	Complete job	0
+38598496810	native (ubuntu-24.04)	success	queue	3
+38598496810	native (ubuntu-24.04)	success	job	14
+38598496810	native (ubuntu-24.04)	success	Set up job	1
+38598496810	native (ubuntu-24.04)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38598496810	native (ubuntu-24.04)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	8
+38598496810	native (ubuntu-24.04)	success	go test	0
+38598496810	native (ubuntu-24.04)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38598496810	native (ubuntu-24.04)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38598496810	native (ubuntu-24.04)	success	Complete job	0
+38598496810	qemu	success	queue	3
+38598496810	qemu	success	job	72
+38598496810	qemu	success	Set up job	1
+38598496810	qemu	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38598496810	qemu	success	Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	28
+38598496810	qemu	success	pkg_add go	23
+38598496810	qemu	success	go test	15
+38598496810	qemu	success	Post Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	0
+38598496810	qemu	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38598496810	qemu	success	Complete job	0
+38598496810	chroot	success	queue	3
+38598496810	chroot	success	job	12
+38598496810	chroot	success	Set up job	1
+38598496810	chroot	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38598496810	chroot	success	Run chroot-dev/chroot-action@v1	1
+38598496810	chroot	success	go test	5
+38598496810	chroot	success	Post Run chroot-dev/chroot-action@v1	1
+38598496810	chroot	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38598496810	chroot	success	Complete job	0
+38598496810	native (macos-15)	success	queue	8
+38598496810	native (macos-15)	success	job	29
+38598496810	native (macos-15)	success	Set up job	1
+38598496810	native (macos-15)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38598496810	native (macos-15)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	20
+38598496810	native (macos-15)	success	go test	1
+38598496810	native (macos-15)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38598496810	native (macos-15)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38598496810	native (macos-15)	success	Complete job	0
+38598723262	qemu	success	queue	2
+38598723262	qemu	success	job	74
+38598723262	qemu	success	Set up job	1
+38598723262	qemu	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38598723262	qemu	success	Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	30
+38598723262	qemu	success	pkg_add go	23
+38598723262	qemu	success	go test	17
+38598723262	qemu	success	Post Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	0
+38598723262	qemu	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38598723262	qemu	success	Complete job	0
+38598723262	native (ubuntu-24.04)	success	queue	3
+38598723262	native (ubuntu-24.04)	success	job	26
+38598723262	native (ubuntu-24.04)	success	Set up job	1
+38598723262	native (ubuntu-24.04)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38598723262	native (ubuntu-24.04)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	17
+38598723262	native (ubuntu-24.04)	success	go test	0
+38598723262	native (ubuntu-24.04)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38598723262	native (ubuntu-24.04)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38598723262	native (ubuntu-24.04)	success	Complete job	0
+38598723262	native (macos-15)	success	queue	7
+38598723262	native (macos-15)	success	job	24
+38598723262	native (macos-15)	success	Set up job	1
+38598723262	native (macos-15)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38598723262	native (macos-15)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	16
+38598723262	native (macos-15)	success	go test	0
+38598723262	native (macos-15)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38598723262	native (macos-15)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38598723262	native (macos-15)	success	Complete job	0
+38598723262	native (windows-2025)	success	queue	3
+38598723262	native (windows-2025)	success	job	36
+38598723262	native (windows-2025)	success	Set up job	1
+38598723262	native (windows-2025)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	13
+38598723262	native (windows-2025)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	16
+38598723262	native (windows-2025)	success	go test	1
+38598723262	native (windows-2025)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38598723262	native (windows-2025)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38598723262	native (windows-2025)	success	Complete job	0
+38598723262	chroot	success	queue	2
+38598723262	chroot	success	job	12
+38598723262	chroot	success	Set up job	1
+38598723262	chroot	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38598723262	chroot	success	Run chroot-dev/chroot-action@v1	2
+38598723262	chroot	success	go test	5
+38598723262	chroot	success	Post Run chroot-dev/chroot-action@v1	1
+38598723262	chroot	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38598723262	chroot	success	Complete job	0
+38598941449	native (windows-2025)	success	queue	3
+38598941449	native (windows-2025)	success	job	41
+38598941449	native (windows-2025)	success	Set up job	1
+38598941449	native (windows-2025)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	9
+38598941449	native (windows-2025)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	24
+38598941449	native (windows-2025)	success	go test	1
+38598941449	native (windows-2025)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	1
+38598941449	native (windows-2025)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38598941449	native (windows-2025)	success	Complete job	0
+38598941449	chroot	success	queue	2
+38598941449	chroot	success	job	17
+38598941449	chroot	success	Set up job	1
+38598941449	chroot	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38598941449	chroot	success	Run chroot-dev/chroot-action@v1	2
+38598941449	chroot	success	go test	9
+38598941449	chroot	success	Post Run chroot-dev/chroot-action@v1	0
+38598941449	chroot	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38598941449	chroot	success	Complete job	0
+38598941449	native (macos-15)	success	queue	7
+38598941449	native (macos-15)	success	job	37
+38598941449	native (macos-15)	success	Set up job	1
+38598941449	native (macos-15)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38598941449	native (macos-15)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	27
+38598941449	native (macos-15)	success	go test	2
+38598941449	native (macos-15)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38598941449	native (macos-15)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38598941449	native (macos-15)	success	Complete job	1
+38598941449	qemu	success	queue	2
+38598941449	qemu	success	job	62
+38598941449	qemu	success	Set up job	1
+38598941449	qemu	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38598941449	qemu	success	Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	22
+38598941449	qemu	success	pkg_add go	22
+38598941449	qemu	success	go test	12
+38598941449	qemu	success	Post Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	0
+38598941449	qemu	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38598941449	qemu	success	Complete job	0
+38598941449	native (ubuntu-24.04)	success	queue	2
+38598941449	native (ubuntu-24.04)	success	job	18
+38598941449	native (ubuntu-24.04)	success	Set up job	1
+38598941449	native (ubuntu-24.04)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38598941449	native (ubuntu-24.04)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	11
+38598941449	native (ubuntu-24.04)	success	go test	1
+38598941449	native (ubuntu-24.04)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38598941449	native (ubuntu-24.04)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38598941449	native (ubuntu-24.04)	success	Complete job	0
+38599129923	chroot	success	queue	3
+38599129923	chroot	success	job	12
+38599129923	chroot	success	Set up job	1
+38599129923	chroot	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38599129923	chroot	success	Run chroot-dev/chroot-action@v1	1
+38599129923	chroot	success	go test	7
+38599129923	chroot	success	Post Run chroot-dev/chroot-action@v1	0
+38599129923	chroot	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38599129923	chroot	success	Complete job	0
+38599129923	qemu	success	queue	2
+38599129923	qemu	success	job	60
+38599129923	qemu	success	Set up job	1
+38599129923	qemu	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38599129923	qemu	success	Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	24
+38599129923	qemu	success	pkg_add go	20
+38599129923	qemu	success	go test	13
+38599129923	qemu	success	Post Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	0
+38599129923	qemu	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38599129923	qemu	success	Complete job	0
+38599129923	native (ubuntu-24.04)	success	queue	3
+38599129923	native (ubuntu-24.04)	success	job	17
+38599129923	native (ubuntu-24.04)	success	Set up job	1
+38599129923	native (ubuntu-24.04)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38599129923	native (ubuntu-24.04)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	13
+38599129923	native (ubuntu-24.04)	success	go test	0
+38599129923	native (ubuntu-24.04)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38599129923	native (ubuntu-24.04)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38599129923	native (ubuntu-24.04)	success	Complete job	0
+38599129923	native (windows-2025)	success	queue	3
+38599129923	native (windows-2025)	success	job	27
+38599129923	native (windows-2025)	success	Set up job	1
+38599129923	native (windows-2025)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	6
+38599129923	native (windows-2025)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	14
+38599129923	native (windows-2025)	success	go test	2
+38599129923	native (windows-2025)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	1
+38599129923	native (windows-2025)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38599129923	native (windows-2025)	success	Complete job	0
+38599129923	native (macos-15)	success	queue	8
+38599129923	native (macos-15)	success	job	45
+38599129923	native (macos-15)	success	Set up job	2
+38599129923	native (macos-15)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38599129923	native (macos-15)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	35
+38599129923	native (macos-15)	success	go test	1
+38599129923	native (macos-15)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38599129923	native (macos-15)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38599129923	native (macos-15)	success	Complete job	0
+38599644078	qemu	success	queue	3
+38599644078	qemu	success	job	71
+38599644078	qemu	success	Set up job	1
+38599644078	qemu	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38599644078	qemu	success	Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	29
+38599644078	qemu	success	pkg_add go	22
+38599644078	qemu	success	go test	16
+38599644078	qemu	success	Post Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	0
+38599644078	qemu	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38599644078	qemu	success	Complete job	0
+38599644078	native (windows-2025)	success	queue	2
+38599644078	native (windows-2025)	success	job	40
+38599644078	native (windows-2025)	success	Set up job	1
+38599644078	native (windows-2025)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	6
+38599644078	native (windows-2025)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	28
+38599644078	native (windows-2025)	success	go test	0
+38599644078	native (windows-2025)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	1
+38599644078	native (windows-2025)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38599644078	native (windows-2025)	success	Complete job	0
+38599644078	chroot-cold-1cpu-128M	success	queue	3
+38599644078	chroot-cold-1cpu-128M	success	job	222
+38599644078	chroot-cold-1cpu-128M	success	Set up job	0
+38599644078	chroot-cold-1cpu-128M	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38599644078	chroot-cold-1cpu-128M	success	Run chroot-dev/chroot-action@v1	3
+38599644078	chroot-cold-1cpu-128M	success	pkg_add go	53
+38599644078	chroot-cold-1cpu-128M	success	go test	161
+38599644078	chroot-cold-1cpu-128M	success	Post Run chroot-dev/chroot-action@v1	0
+38599644078	chroot-cold-1cpu-128M	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38599644078	chroot-cold-1cpu-128M	success	Complete job	0
+38599644078	native (ubuntu-24.04)	success	queue	2
+38599644078	native (ubuntu-24.04)	success	job	20
+38599644078	native (ubuntu-24.04)	success	Set up job	1
+38599644078	native (ubuntu-24.04)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38599644078	native (ubuntu-24.04)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	13
+38599644078	native (ubuntu-24.04)	success	go test	1
+38599644078	native (ubuntu-24.04)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38599644078	native (ubuntu-24.04)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38599644078	native (ubuntu-24.04)	success	Complete job	0
+38599644078	chroot	success	queue	3
+38599644078	chroot	success	job	12
+38599644078	chroot	success	Set up job	1
+38599644078	chroot	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38599644078	chroot	success	Run chroot-dev/chroot-action@v1	3
+38599644078	chroot	success	go test	4
+38599644078	chroot	success	Post Run chroot-dev/chroot-action@v1	1
+38599644078	chroot	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38599644078	chroot	success	Complete job	0
+38599644078	native (macos-15)	success	queue	7
+38599644078	native (macos-15)	success	job	23
+38599644078	native (macos-15)	success	Set up job	3
+38599644078	native (macos-15)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38599644078	native (macos-15)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	15
+38599644078	native (macos-15)	success	go test	1
+38599644078	native (macos-15)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38599644078	native (macos-15)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38599644078	native (macos-15)	success	Complete job	1
+38600206956	chroot-cold-1cpu-128M	success	queue	2
+38600206956	chroot-cold-1cpu-128M	success	job	253
+38600206956	chroot-cold-1cpu-128M	success	Set up job	0
+38600206956	chroot-cold-1cpu-128M	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38600206956	chroot-cold-1cpu-128M	success	Run chroot-dev/chroot-action@v1	2
+38600206956	chroot-cold-1cpu-128M	success	pkg_add go	54
+38600206956	chroot-cold-1cpu-128M	success	go test	193
+38600206956	chroot-cold-1cpu-128M	success	Post Run chroot-dev/chroot-action@v1	0
+38600206956	chroot-cold-1cpu-128M	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38600206956	chroot-cold-1cpu-128M	success	Complete job	0
+38600206956	native (ubuntu-24.04)	success	queue	2
+38600206956	native (ubuntu-24.04)	success	job	20
+38600206956	native (ubuntu-24.04)	success	Set up job	1
+38600206956	native (ubuntu-24.04)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38600206956	native (ubuntu-24.04)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	13
+38600206956	native (ubuntu-24.04)	success	go test	1
+38600206956	native (ubuntu-24.04)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38600206956	native (ubuntu-24.04)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38600206956	native (ubuntu-24.04)	success	Complete job	0
+38600206956	native (macos-15)	success	queue	7
+38600206956	native (macos-15)	success	job	28
+38600206956	native (macos-15)	success	Set up job	1
+38600206956	native (macos-15)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38600206956	native (macos-15)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	19
+38600206956	native (macos-15)	success	go test	1
+38600206956	native (macos-15)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38600206956	native (macos-15)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38600206956	native (macos-15)	success	Complete job	0
+38600206956	chroot	success	queue	2
+38600206956	chroot	success	job	11
+38600206956	chroot	success	Set up job	2
+38600206956	chroot	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38600206956	chroot	success	Run chroot-dev/chroot-action@v1	2
+38600206956	chroot	success	go test	4
+38600206956	chroot	success	Post Run chroot-dev/chroot-action@v1	1
+38600206956	chroot	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38600206956	chroot	success	Complete job	0
+38600206956	qemu	success	queue	38
+38600206956	qemu	success	job	81
+38600206956	qemu	success	Set up job	1
+38600206956	qemu	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38600206956	qemu	success	Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	33
+38600206956	qemu	success	pkg_add go	26
+38600206956	qemu	success	go test	16
+38600206956	qemu	success	Post Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	0
+38600206956	qemu	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38600206956	qemu	success	Complete job	0
+38600206956	native (windows-2025)	success	queue	2
+38600206956	native (windows-2025)	success	job	36
+38600206956	native (windows-2025)	success	Set up job	1
+38600206956	native (windows-2025)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	8
+38600206956	native (windows-2025)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	20
+38600206956	native (windows-2025)	success	go test	1
+38600206956	native (windows-2025)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38600206956	native (windows-2025)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38600206956	native (windows-2025)	success	Complete job	0
+38600854196	chroot	success	queue	2
+38600854196	chroot	success	job	10
+38600854196	chroot	success	Set up job	1
+38600854196	chroot	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38600854196	chroot	success	Run chroot-dev/chroot-action@v1	1
+38600854196	chroot	success	go test	5
+38600854196	chroot	success	Post Run chroot-dev/chroot-action@v1	0
+38600854196	chroot	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38600854196	chroot	success	Complete job	1
+38600854196	chroot-cold-1cpu-128M	success	queue	2
+38600854196	chroot-cold-1cpu-128M	success	job	319
+38600854196	chroot-cold-1cpu-128M	success	Set up job	1
+38600854196	chroot-cold-1cpu-128M	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38600854196	chroot-cold-1cpu-128M	success	Run chroot-dev/chroot-action@v1	2
+38600854196	chroot-cold-1cpu-128M	success	pkg_add go	82
+38600854196	chroot-cold-1cpu-128M	success	go test	230
+38600854196	chroot-cold-1cpu-128M	success	Post Run chroot-dev/chroot-action@v1	1
+38600854196	chroot-cold-1cpu-128M	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38600854196	chroot-cold-1cpu-128M	success	Complete job	0
+38600854196	qemu	success	queue	2
+38600854196	qemu	success	job	75
+38600854196	qemu	success	Set up job	1
+38600854196	qemu	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38600854196	qemu	success	Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	30
+38600854196	qemu	success	pkg_add go	25
+38600854196	qemu	success	go test	16
+38600854196	qemu	success	Post Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	0
+38600854196	qemu	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38600854196	qemu	success	Complete job	0
+38600854196	native (windows-2025)	success	queue	2
+38600854196	native (windows-2025)	success	job	32
+38600854196	native (windows-2025)	success	Set up job	1
+38600854196	native (windows-2025)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	9
+38600854196	native (windows-2025)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	17
+38600854196	native (windows-2025)	success	go test	1
+38600854196	native (windows-2025)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38600854196	native (windows-2025)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38600854196	native (windows-2025)	success	Complete job	0
+38600854196	native (ubuntu-24.04)	success	queue	3
+38600854196	native (ubuntu-24.04)	success	job	27
+38600854196	native (ubuntu-24.04)	success	Set up job	1
+38600854196	native (ubuntu-24.04)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38600854196	native (ubuntu-24.04)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	18
+38600854196	native (ubuntu-24.04)	success	go test	1
+38600854196	native (ubuntu-24.04)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38600854196	native (ubuntu-24.04)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38600854196	native (ubuntu-24.04)	success	Complete job	0
+38600854196	native (macos-15)	success	queue	7
+38600854196	native (macos-15)	success	job	29
+38600854196	native (macos-15)	success	Set up job	1
+38600854196	native (macos-15)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38600854196	native (macos-15)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	18
+38600854196	native (macos-15)	success	go test	1
+38600854196	native (macos-15)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38600854196	native (macos-15)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38600854196	native (macos-15)	success	Complete job	0
+38601648658	chroot-cold-1cpu-128M	success	queue	2
+38601648658	chroot-cold-1cpu-128M	success	job	273
+38601648658	chroot-cold-1cpu-128M	success	Set up job	1
+38601648658	chroot-cold-1cpu-128M	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38601648658	chroot-cold-1cpu-128M	success	Run chroot-dev/chroot-action@v1	2
+38601648658	chroot-cold-1cpu-128M	success	pkg_add go	54
+38601648658	chroot-cold-1cpu-128M	success	go test	212
+38601648658	chroot-cold-1cpu-128M	success	Post Run chroot-dev/chroot-action@v1	0
+38601648658	chroot-cold-1cpu-128M	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38601648658	chroot-cold-1cpu-128M	success	Complete job	0
+38601648658	chroot	success	queue	2
+38601648658	chroot	success	job	13
+38601648658	chroot	success	Set up job	0
+38601648658	chroot	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38601648658	chroot	success	Run chroot-dev/chroot-action@v1	3
+38601648658	chroot	success	go test	6
+38601648658	chroot	success	Post Run chroot-dev/chroot-action@v1	0
+38601648658	chroot	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38601648658	chroot	success	Complete job	0
+38601648658	qemu	success	queue	2
+38601648658	qemu	success	job	74
+38601648658	qemu	success	Set up job	1
+38601648658	qemu	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38601648658	qemu	success	Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	28
+38601648658	qemu	success	pkg_add go	25
+38601648658	qemu	success	go test	16
+38601648658	qemu	success	Post Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	0
+38601648658	qemu	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38601648658	qemu	success	Complete job	0
+38601648658	native (ubuntu-24.04)	success	queue	2
+38601648658	native (ubuntu-24.04)	success	job	17
+38601648658	native (ubuntu-24.04)	success	Set up job	1
+38601648658	native (ubuntu-24.04)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38601648658	native (ubuntu-24.04)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	11
+38601648658	native (ubuntu-24.04)	success	go test	0
+38601648658	native (ubuntu-24.04)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38601648658	native (ubuntu-24.04)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38601648658	native (ubuntu-24.04)	success	Complete job	0
+38601648658	native (windows-2025)	success	queue	2
+38601648658	native (windows-2025)	success	job	49
+38601648658	native (windows-2025)	success	Set up job	2
+38601648658	native (windows-2025)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	14
+38601648658	native (windows-2025)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	27
+38601648658	native (windows-2025)	success	go test	1
+38601648658	native (windows-2025)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38601648658	native (windows-2025)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38601648658	native (windows-2025)	success	Complete job	0
+38601648658	native (macos-15)	success	queue	15
+38601648658	native (macos-15)	success	job	29
+38601648658	native (macos-15)	success	Set up job	2
+38601648658	native (macos-15)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38601648658	native (macos-15)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	18
+38601648658	native (macos-15)	success	go test	1
+38601648658	native (macos-15)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38601648658	native (macos-15)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38601648658	native (macos-15)	success	Complete job	0
+38602341987	native (windows-2025)	success	queue	2
+38602341987	native (windows-2025)	success	job	26
+38602341987	native (windows-2025)	success	Set up job	0
+38602341987	native (windows-2025)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	6
+38602341987	native (windows-2025)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	14
+38602341987	native (windows-2025)	success	go test	1
+38602341987	native (windows-2025)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38602341987	native (windows-2025)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38602341987	native (windows-2025)	success	Complete job	0
+38602341987	chroot-cold-1cpu-128M	success	queue	2
+38602341987	chroot-cold-1cpu-128M	success	job	256
+38602341987	chroot-cold-1cpu-128M	success	Set up job	0
+38602341987	chroot-cold-1cpu-128M	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38602341987	chroot-cold-1cpu-128M	success	Run chroot-dev/chroot-action@v1	2
+38602341987	chroot-cold-1cpu-128M	success	pkg_add go	53
+38602341987	chroot-cold-1cpu-128M	success	go test	197
+38602341987	chroot-cold-1cpu-128M	success	Post Run chroot-dev/chroot-action@v1	0
+38602341987	chroot-cold-1cpu-128M	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38602341987	chroot-cold-1cpu-128M	success	Complete job	0
+38602341987	native (macos-15)	success	queue	5
+38602341987	native (macos-15)	success	job	18
+38602341987	native (macos-15)	success	Set up job	1
+38602341987	native (macos-15)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38602341987	native (macos-15)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	11
+38602341987	native (macos-15)	success	go test	0
+38602341987	native (macos-15)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38602341987	native (macos-15)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38602341987	native (macos-15)	success	Complete job	0
+38602341987	native (ubuntu-24.04)	success	queue	2
+38602341987	native (ubuntu-24.04)	success	job	12
+38602341987	native (ubuntu-24.04)	success	Set up job	1
+38602341987	native (ubuntu-24.04)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38602341987	native (ubuntu-24.04)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	7
+38602341987	native (ubuntu-24.04)	success	go test	1
+38602341987	native (ubuntu-24.04)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38602341987	native (ubuntu-24.04)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38602341987	native (ubuntu-24.04)	success	Complete job	0
+38602341987	qemu	success	queue	2
+38602341987	qemu	success	job	73
+38602341987	qemu	success	Set up job	1
+38602341987	qemu	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38602341987	qemu	success	Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	24
+38602341987	qemu	success	pkg_add go	24
+38602341987	qemu	success	go test	20
+38602341987	qemu	success	Post Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	0
+38602341987	qemu	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38602341987	qemu	success	Complete job	0
+38602341987	chroot	success	queue	3
+38602341987	chroot	success	job	11
+38602341987	chroot	success	Set up job	0
+38602341987	chroot	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38602341987	chroot	success	Run chroot-dev/chroot-action@v1	2
+38602341987	chroot	success	go test	4
+38602341987	chroot	success	Post Run chroot-dev/chroot-action@v1	1
+38602341987	chroot	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38602341987	chroot	success	Complete job	0
+38603009103	chroot	success	queue	2
+38603009103	chroot	success	job	11
+38603009103	chroot	success	Set up job	1
+38603009103	chroot	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38603009103	chroot	success	Run chroot-dev/chroot-action@v1	2
+38603009103	chroot	success	go test	4
+38603009103	chroot	success	Post Run chroot-dev/chroot-action@v1	1
+38603009103	chroot	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38603009103	chroot	success	Complete job	0
+38603009103	qemu	success	queue	2
+38603009103	qemu	success	job	86
+38603009103	qemu	success	Set up job	1
+38603009103	qemu	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38603009103	qemu	success	Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	32
+38603009103	qemu	success	pkg_add go	28
+38603009103	qemu	success	go test	21
+38603009103	qemu	success	Post Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	0
+38603009103	qemu	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38603009103	qemu	success	Complete job	0
+38603009103	native (windows-2025)	success	queue	2
+38603009103	native (windows-2025)	success	job	41
+38603009103	native (windows-2025)	success	Set up job	1
+38603009103	native (windows-2025)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	11
+38603009103	native (windows-2025)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	23
+38603009103	native (windows-2025)	success	go test	1
+38603009103	native (windows-2025)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38603009103	native (windows-2025)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38603009103	native (windows-2025)	success	Complete job	1
+38603009103	native (ubuntu-24.04)	success	queue	2
+38603009103	native (ubuntu-24.04)	success	job	13
+38603009103	native (ubuntu-24.04)	success	Set up job	1
+38603009103	native (ubuntu-24.04)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38603009103	native (ubuntu-24.04)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	9
+38603009103	native (ubuntu-24.04)	success	go test	0
+38603009103	native (ubuntu-24.04)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38603009103	native (ubuntu-24.04)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38603009103	native (ubuntu-24.04)	success	Complete job	0
+38603009103	native (macos-15)	success	queue	9
+38603009103	native (macos-15)	success	job	31
+38603009103	native (macos-15)	success	Set up job	2
+38603009103	native (macos-15)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38603009103	native (macos-15)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	20
+38603009103	native (macos-15)	success	go test	1
+38603009103	native (macos-15)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38603009103	native (macos-15)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38603009103	native (macos-15)	success	Complete job	0
+38603009103	chroot-cold-1cpu-128M	success	queue	2
+38603009103	chroot-cold-1cpu-128M	success	job	297
+38603009103	chroot-cold-1cpu-128M	success	Set up job	0
+38603009103	chroot-cold-1cpu-128M	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38603009103	chroot-cold-1cpu-128M	success	Run chroot-dev/chroot-action@v1	2
+38603009103	chroot-cold-1cpu-128M	success	pkg_add go	72
+38603009103	chroot-cold-1cpu-128M	success	go test	219
+38603009103	chroot-cold-1cpu-128M	success	Post Run chroot-dev/chroot-action@v1	0
+38603009103	chroot-cold-1cpu-128M	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38603009103	chroot-cold-1cpu-128M	success	Complete job	1
+38603848630	chroot	success	queue	3
+38603848630	chroot	success	job	11
+38603848630	chroot	success	Set up job	1
+38603848630	chroot	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38603848630	chroot	success	Run chroot-dev/chroot-action@v1	2
+38603848630	chroot	success	go test	5
+38603848630	chroot	success	Post Run chroot-dev/chroot-action@v1	0
+38603848630	chroot	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38603848630	chroot	success	Complete job	0
+38603848630	chroot-cold-2cpu-1G	success	queue	2
+38603848630	chroot-cold-2cpu-1G	success	job	70
+38603848630	chroot-cold-2cpu-1G	success	Set up job	0
+38603848630	chroot-cold-2cpu-1G	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38603848630	chroot-cold-2cpu-1G	success	Run chroot-dev/chroot-action@v1	3
+38603848630	chroot-cold-2cpu-1G	success	pkg_add go	41
+38603848630	chroot-cold-2cpu-1G	success	go test	22
+38603848630	chroot-cold-2cpu-1G	success	Post Run chroot-dev/chroot-action@v1	1
+38603848630	chroot-cold-2cpu-1G	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38603848630	chroot-cold-2cpu-1G	success	Complete job	0
+38603848630	qemu	success	queue	3
+38603848630	qemu	success	job	77
+38603848630	qemu	success	Set up job	1
+38603848630	qemu	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38603848630	qemu	success	Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	28
+38603848630	qemu	success	pkg_add go	28
+38603848630	qemu	success	go test	16
+38603848630	qemu	success	Post Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	0
+38603848630	qemu	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38603848630	qemu	success	Complete job	0
+38603848630	native (macos-15)	success	queue	10
+38603848630	native (macos-15)	success	job	36
+38603848630	native (macos-15)	success	Set up job	2
+38603848630	native (macos-15)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38603848630	native (macos-15)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	25
+38603848630	native (macos-15)	success	go test	1
+38603848630	native (macos-15)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38603848630	native (macos-15)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38603848630	native (macos-15)	success	Complete job	1
+38603848630	native (ubuntu-24.04)	success	queue	3
+38603848630	native (ubuntu-24.04)	success	job	17
+38603848630	native (ubuntu-24.04)	success	Set up job	0
+38603848630	native (ubuntu-24.04)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38603848630	native (ubuntu-24.04)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	11
+38603848630	native (ubuntu-24.04)	success	go test	0
+38603848630	native (ubuntu-24.04)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38603848630	native (ubuntu-24.04)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38603848630	native (ubuntu-24.04)	success	Complete job	0
+38603848630	native (windows-2025)	success	queue	2
+38603848630	native (windows-2025)	success	job	28
+38603848630	native (windows-2025)	success	Set up job	1
+38603848630	native (windows-2025)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	5
+38603848630	native (windows-2025)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	16
+38603848630	native (windows-2025)	success	go test	1
+38603848630	native (windows-2025)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38603848630	native (windows-2025)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38603848630	native (windows-2025)	success	Complete job	0
+38604071660	qemu	success	queue	2
+38604071660	qemu	success	job	141
+38604071660	qemu	success	Set up job	2
+38604071660	qemu	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38604071660	qemu	success	Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	40
+38604071660	qemu	success	pkg_add go	57
+38604071660	qemu	success	go test	36
+38604071660	qemu	success	Post Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	0
+38604071660	qemu	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38604071660	qemu	success	Complete job	0
+38604071660	chroot	success	queue	2
+38604071660	chroot	success	job	12
+38604071660	chroot	success	Set up job	1
+38604071660	chroot	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38604071660	chroot	success	Run chroot-dev/chroot-action@v1	2
+38604071660	chroot	success	go test	4
+38604071660	chroot	success	Post Run chroot-dev/chroot-action@v1	1
+38604071660	chroot	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38604071660	chroot	success	Complete job	0
+38604071660	native (macos-15)	success	queue	9
+38604071660	native (macos-15)	success	job	33
+38604071660	native (macos-15)	success	Set up job	1
+38604071660	native (macos-15)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	3
+38604071660	native (macos-15)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	22
+38604071660	native (macos-15)	success	go test	1
+38604071660	native (macos-15)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	1
+38604071660	native (macos-15)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38604071660	native (macos-15)	success	Complete job	0
+38604071660	native (windows-2025)	success	queue	2
+38604071660	native (windows-2025)	success	job	32
+38604071660	native (windows-2025)	success	Set up job	1
+38604071660	native (windows-2025)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	6
+38604071660	native (windows-2025)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	19
+38604071660	native (windows-2025)	success	go test	1
+38604071660	native (windows-2025)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38604071660	native (windows-2025)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38604071660	native (windows-2025)	success	Complete job	0
+38604071660	native (ubuntu-24.04)	success	queue	2
+38604071660	native (ubuntu-24.04)	success	job	18
+38604071660	native (ubuntu-24.04)	success	Set up job	1
+38604071660	native (ubuntu-24.04)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38604071660	native (ubuntu-24.04)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	11
+38604071660	native (ubuntu-24.04)	success	go test	0
+38604071660	native (ubuntu-24.04)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	1
+38604071660	native (ubuntu-24.04)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38604071660	native (ubuntu-24.04)	success	Complete job	0
+38604071660	chroot-cold-2cpu-1G	success	queue	2
+38604071660	chroot-cold-2cpu-1G	success	job	77
+38604071660	chroot-cold-2cpu-1G	success	Set up job	0
+38604071660	chroot-cold-2cpu-1G	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38604071660	chroot-cold-2cpu-1G	success	Run chroot-dev/chroot-action@v1	3
+38604071660	chroot-cold-2cpu-1G	success	pkg_add go	47
+38604071660	chroot-cold-2cpu-1G	success	go test	22
+38604071660	chroot-cold-2cpu-1G	success	Post Run chroot-dev/chroot-action@v1	0
+38604071660	chroot-cold-2cpu-1G	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38604071660	chroot-cold-2cpu-1G	success	Complete job	0
+38604454571	native (windows-2025)	success	queue	2
+38604454571	native (windows-2025)	success	job	40
+38604454571	native (windows-2025)	success	Set up job	1
+38604454571	native (windows-2025)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	9
+38604454571	native (windows-2025)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	23
+38604454571	native (windows-2025)	success	go test	1
+38604454571	native (windows-2025)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38604454571	native (windows-2025)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38604454571	native (windows-2025)	success	Complete job	0
+38604454571	native (ubuntu-24.04)	success	queue	2
+38604454571	native (ubuntu-24.04)	success	job	18
+38604454571	native (ubuntu-24.04)	success	Set up job	1
+38604454571	native (ubuntu-24.04)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38604454571	native (ubuntu-24.04)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	11
+38604454571	native (ubuntu-24.04)	success	go test	0
+38604454571	native (ubuntu-24.04)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38604454571	native (ubuntu-24.04)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38604454571	native (ubuntu-24.04)	success	Complete job	0
+38604454571	native (macos-15)	success	queue	34
+38604454571	native (macos-15)	success	job	40
+38604454571	native (macos-15)	success	Set up job	1
+38604454571	native (macos-15)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	3
+38604454571	native (macos-15)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	28
+38604454571	native (macos-15)	success	go test	1
+38604454571	native (macos-15)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38604454571	native (macos-15)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38604454571	native (macos-15)	success	Complete job	0
+38604454571	chroot-cold-2cpu-1G	success	queue	2
+38604454571	chroot-cold-2cpu-1G	success	job	72
+38604454571	chroot-cold-2cpu-1G	success	Set up job	1
+38604454571	chroot-cold-2cpu-1G	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38604454571	chroot-cold-2cpu-1G	success	Run chroot-dev/chroot-action@v1	3
+38604454571	chroot-cold-2cpu-1G	success	pkg_add go	42
+38604454571	chroot-cold-2cpu-1G	success	go test	23
+38604454571	chroot-cold-2cpu-1G	success	Post Run chroot-dev/chroot-action@v1	1
+38604454571	chroot-cold-2cpu-1G	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38604454571	chroot-cold-2cpu-1G	success	Complete job	0
+38604454571	qemu	success	queue	2
+38604454571	qemu	success	job	79
+38604454571	qemu	success	Set up job	1
+38604454571	qemu	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38604454571	qemu	success	Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	29
+38604454571	qemu	success	pkg_add go	28
+38604454571	qemu	success	go test	15
+38604454571	qemu	success	Post Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	0
+38604454571	qemu	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38604454571	qemu	success	Complete job	0
+38604454571	chroot	success	queue	2
+38604454571	chroot	success	job	10
+38604454571	chroot	success	Set up job	1
+38604454571	chroot	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38604454571	chroot	success	Run chroot-dev/chroot-action@v1	1
+38604454571	chroot	success	go test	5
+38604454571	chroot	success	Post Run chroot-dev/chroot-action@v1	0
+38604454571	chroot	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38604454571	chroot	success	Complete job	0
+38604702375	qemu	success	queue	3
+38604702375	qemu	success	job	82
+38604702375	qemu	success	Set up job	1
+38604702375	qemu	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38604702375	qemu	success	Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	34
+38604702375	qemu	success	pkg_add go	27
+38604702375	qemu	success	go test	16
+38604702375	qemu	success	Post Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	0
+38604702375	qemu	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38604702375	qemu	success	Complete job	0
+38604702375	native (ubuntu-24.04)	success	queue	3
+38604702375	native (ubuntu-24.04)	success	job	20
+38604702375	native (ubuntu-24.04)	success	Set up job	2
+38604702375	native (ubuntu-24.04)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38604702375	native (ubuntu-24.04)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	14
+38604702375	native (ubuntu-24.04)	success	go test	0
+38604702375	native (ubuntu-24.04)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38604702375	native (ubuntu-24.04)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38604702375	native (ubuntu-24.04)	success	Complete job	0
+38604702375	native (windows-2025)	success	queue	3
+38604702375	native (windows-2025)	success	job	44
+38604702375	native (windows-2025)	success	Set up job	1
+38604702375	native (windows-2025)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	11
+38604702375	native (windows-2025)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	25
+38604702375	native (windows-2025)	success	go test	1
+38604702375	native (windows-2025)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38604702375	native (windows-2025)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38604702375	native (windows-2025)	success	Complete job	0
+38604702375	chroot-cold-2cpu-1G	success	queue	2
+38604702375	chroot-cold-2cpu-1G	success	job	70
+38604702375	chroot-cold-2cpu-1G	success	Set up job	1
+38604702375	chroot-cold-2cpu-1G	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38604702375	chroot-cold-2cpu-1G	success	Run chroot-dev/chroot-action@v1	3
+38604702375	chroot-cold-2cpu-1G	success	pkg_add go	40
+38604702375	chroot-cold-2cpu-1G	success	go test	22
+38604702375	chroot-cold-2cpu-1G	success	Post Run chroot-dev/chroot-action@v1	1
+38604702375	chroot-cold-2cpu-1G	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38604702375	chroot-cold-2cpu-1G	success	Complete job	0
+38604702375	chroot	success	queue	2
+38604702375	chroot	success	job	10
+38604702375	chroot	success	Set up job	1
+38604702375	chroot	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38604702375	chroot	success	Run chroot-dev/chroot-action@v1	2
+38604702375	chroot	success	go test	4
+38604702375	chroot	success	Post Run chroot-dev/chroot-action@v1	0
+38604702375	chroot	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38604702375	chroot	success	Complete job	0
+38604702375	native (macos-15)	success	queue	8
+38604702375	native (macos-15)	success	job	31
+38604702375	native (macos-15)	success	Set up job	2
+38604702375	native (macos-15)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38604702375	native (macos-15)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	21
+38604702375	native (macos-15)	success	go test	1
+38604702375	native (macos-15)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	1
+38604702375	native (macos-15)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38604702375	native (macos-15)	success	Complete job	0
+38604952762	chroot	success	queue	2
+38604952762	chroot	success	job	11
+38604952762	chroot	success	Set up job	0
+38604952762	chroot	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38604952762	chroot	success	Run chroot-dev/chroot-action@v1	2
+38604952762	chroot	success	go test	5
+38604952762	chroot	success	Post Run chroot-dev/chroot-action@v1	0
+38604952762	chroot	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38604952762	chroot	success	Complete job	0
+38604952762	native (ubuntu-24.04)	success	queue	2
+38604952762	native (ubuntu-24.04)	success	job	17
+38604952762	native (ubuntu-24.04)	success	Set up job	2
+38604952762	native (ubuntu-24.04)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38604952762	native (ubuntu-24.04)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	8
+38604952762	native (ubuntu-24.04)	success	go test	0
+38604952762	native (ubuntu-24.04)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	1
+38604952762	native (ubuntu-24.04)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38604952762	native (ubuntu-24.04)	success	Complete job	0
+38604952762	native (windows-2025)	success	queue	1
+38604952762	native (windows-2025)	success	job	34
+38604952762	native (windows-2025)	success	Set up job	1
+38604952762	native (windows-2025)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	8
+38604952762	native (windows-2025)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	18
+38604952762	native (windows-2025)	success	go test	1
+38604952762	native (windows-2025)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	1
+38604952762	native (windows-2025)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38604952762	native (windows-2025)	success	Complete job	0
+38604952762	qemu	success	queue	3
+38604952762	qemu	success	job	77
+38604952762	qemu	success	Set up job	1
+38604952762	qemu	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38604952762	qemu	success	Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	27
+38604952762	qemu	success	pkg_add go	27
+38604952762	qemu	success	go test	17
+38604952762	qemu	success	Post Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	0
+38604952762	qemu	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38604952762	qemu	success	Complete job	0
+38604952762	native (macos-15)	success	queue	8
+38604952762	native (macos-15)	success	job	35
+38604952762	native (macos-15)	success	Set up job	2
+38604952762	native (macos-15)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	3
+38604952762	native (macos-15)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	23
+38604952762	native (macos-15)	success	go test	1
+38604952762	native (macos-15)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38604952762	native (macos-15)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38604952762	native (macos-15)	success	Complete job	0
+38604952762	chroot-cold-2cpu-1G	success	queue	2
+38604952762	chroot-cold-2cpu-1G	success	job	70
+38604952762	chroot-cold-2cpu-1G	success	Set up job	1
+38604952762	chroot-cold-2cpu-1G	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38604952762	chroot-cold-2cpu-1G	success	Run chroot-dev/chroot-action@v1	4
+38604952762	chroot-cold-2cpu-1G	success	pkg_add go	38
+38604952762	chroot-cold-2cpu-1G	success	go test	22
+38604952762	chroot-cold-2cpu-1G	success	Post Run chroot-dev/chroot-action@v1	0
+38604952762	chroot-cold-2cpu-1G	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38604952762	chroot-cold-2cpu-1G	success	Complete job	1
+38605183369	chroot	success	queue	2
+38605183369	chroot	success	job	12
+38605183369	chroot	success	Set up job	1
+38605183369	chroot	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38605183369	chroot	success	Run chroot-dev/chroot-action@v1	2
+38605183369	chroot	success	go test	5
+38605183369	chroot	success	Post Run chroot-dev/chroot-action@v1	0
+38605183369	chroot	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38605183369	chroot	success	Complete job	0
+38605183369	native (ubuntu-24.04)	success	queue	2
+38605183369	native (ubuntu-24.04)	success	job	19
+38605183369	native (ubuntu-24.04)	success	Set up job	1
+38605183369	native (ubuntu-24.04)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38605183369	native (ubuntu-24.04)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	12
+38605183369	native (ubuntu-24.04)	success	go test	0
+38605183369	native (ubuntu-24.04)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	1
+38605183369	native (ubuntu-24.04)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38605183369	native (ubuntu-24.04)	success	Complete job	0
+38605183369	native (macos-15)	success	queue	9
+38605183369	native (macos-15)	success	job	40
+38605183369	native (macos-15)	success	Set up job	2
+38605183369	native (macos-15)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38605183369	native (macos-15)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	29
+38605183369	native (macos-15)	success	go test	1
+38605183369	native (macos-15)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38605183369	native (macos-15)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38605183369	native (macos-15)	success	Complete job	0
+38605183369	qemu	success	queue	2
+38605183369	qemu	success	job	73
+38605183369	qemu	success	Set up job	1
+38605183369	qemu	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38605183369	qemu	success	Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	30
+38605183369	qemu	success	pkg_add go	23
+38605183369	qemu	success	go test	16
+38605183369	qemu	success	Post Run cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e	0
+38605183369	qemu	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	0
+38605183369	qemu	success	Complete job	1
+38605183369	chroot-cold-2cpu-1G	success	queue	3
+38605183369	chroot-cold-2cpu-1G	success	job	72
+38605183369	chroot-cold-2cpu-1G	success	Set up job	1
+38605183369	chroot-cold-2cpu-1G	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38605183369	chroot-cold-2cpu-1G	success	Run chroot-dev/chroot-action@v1	4
+38605183369	chroot-cold-2cpu-1G	success	pkg_add go	39
+38605183369	chroot-cold-2cpu-1G	success	go test	23
+38605183369	chroot-cold-2cpu-1G	success	Post Run chroot-dev/chroot-action@v1	0
+38605183369	chroot-cold-2cpu-1G	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	1
+38605183369	chroot-cold-2cpu-1G	success	Complete job	0
+38605183369	native (windows-2025)	success	queue	2
+38605183369	native (windows-2025)	success	job	39
+38605183369	native (windows-2025)	success	Set up job	1
+38605183369	native (windows-2025)	success	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	10
+38605183369	native (windows-2025)	success	Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	21
+38605183369	native (windows-2025)	success	go test	1
+38605183369	native (windows-2025)	success	Post Run actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e	0
+38605183369	native (windows-2025)	success	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2
+38605183369	native (windows-2025)	success	Complete job	0
