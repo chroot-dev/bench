@@ -44,6 +44,27 @@ jobs:
         shell: chroot {0}
         run: go test -v ./...
 
+  chroot-cold:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: chroot-dev/chroot-action@v1
+        with:
+          ssh-key: ${{ secrets.CHROOT_SSH_KEY }}
+
+      - name: pkg_add go
+        shell: chroot {0}
+        run: doas pkg_add -I go
+
+      - name: go test
+        shell: chroot {0}
+        run: go test -v ./...
+
   qemu:
     runs-on: ubuntu-24.04
     permissions:
