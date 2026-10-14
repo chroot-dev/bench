@@ -1,0 +1,67 @@
+name: bench
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  native:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, macos-15, windows-2025]
+    runs-on: ${{ matrix.os }}
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version-file: go.mod
+
+      - name: go test
+        run: go test -v ./...
+
+  chroot:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: chroot-dev/chroot-action@v1
+        with:
+          ssh-key: ${{ secrets.CHROOT_SSH_KEY }}
+          from: ci-go
+
+      - name: go test
+        shell: chroot {0}
+        run: go test -v ./...
+
+  qemu:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: cross-platform-actions/action@48a7982e8230b812b030848825c2cb55a66daa4e # v1.6.0
+        with:
+          operating_system: openbsd
+          version: '7.9'
+
+      - name: pkg_add go
+        shell: cpa.sh {0}
+        run: sudo pkg_add -I go
+
+      - name: go test
+        shell: cpa.sh {0}
+        run: go test -v ./...
