@@ -56,6 +56,8 @@ jobs:
       - uses: chroot-dev/chroot-action@v1
         with:
           ssh-key: ${{ secrets.CHROOT_SSH_KEY }}
+          cpus: 2
+          memory: 1G
 
       # cdn.openbsd.org served a stale snapshot listing to the VMs on
       # 2026-10-14 (go-1.27.1, gone from the mirror)
